@@ -31,7 +31,6 @@ int main(){
 	now.printTime();
 	open.hour=9;
 	open.minute=10;
-	cout<<"開張時間;
-	
-	
+	cout<<"開張時間:";
+	open.printTime();
 }
