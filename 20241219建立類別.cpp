@@ -4,9 +4,10 @@ using namespace std;
 class myTime{
 	public:
 		int hour;
-		int mi 
-		
+		int minute; 
+		void printTime();
 };
+
 int main(){
 	
 }
