@@ -26,7 +26,14 @@ void myTime::printTime(){
 }
 
 main(){
-	
+	myTime open;
+	myTime close(21);
+	myTime close1(21,25);
+	cout<<"開張時間:";
+	open.printTime();
+	cout<<"結束時間(1):";
+	close.printTime();
+	cout<<"結束時間(2):";
+	close1.printTime(); 
 }
-
 
